@@ -4,6 +4,8 @@ hexdump
 reverse
 prun
 pipe2
+timeserver
+timeclient
 /**/__pycache__/
 worker
 
