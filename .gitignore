@@ -8,6 +8,8 @@ timeserver
 timeclient
 /**/__pycache__/
 worker
+echoserver
+echoclient
 
 # Prerequisites
 *.d
