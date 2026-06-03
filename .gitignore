@@ -3,6 +3,7 @@ test.txt
 hexdump
 reverse
 prun
+pipe2
 /**/__pycache__/
 
 # Prerequisites
