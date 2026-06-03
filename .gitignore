@@ -1,3 +1,8 @@
+# Custom
+test.txt
+hexdump
+/**/__pycache__/
+
 # Prerequisites
 *.d
 
