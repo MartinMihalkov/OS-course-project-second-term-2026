@@ -5,6 +5,7 @@ reverse
 prun
 pipe2
 /**/__pycache__/
+worker
 
 # Prerequisites
 *.d
