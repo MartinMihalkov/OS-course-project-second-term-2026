@@ -2,8 +2,6 @@
 #include <unistd.h>
 #include <stdio.h>
 
-#define BUFFER_SIZE 512
-
 int main(int argc, char *argv[]) {
     if (argc != 2) {
         write(2, "reverse: Invalid arguments\n", 27);
@@ -42,7 +40,6 @@ int main(int argc, char *argv[]) {
     }
 
     // A single buffer is all we need
-    char buf[BUFFER_SIZE]; 
     off_t left = 0; // the first byte index
     off_t right = file_size - 1; // the last byte index
 

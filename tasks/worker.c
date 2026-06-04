@@ -19,12 +19,12 @@ volatile sig_atomic_t keep_running = 1;
 volatile sig_atomic_t usr1_received = 0;
 
 // Signal handler for SIGINT and SIGTERM
-void handle_term(int signum) {
+void handle_term() {
     keep_running = 0;
 }
 
 // Signal handler for SIGUSR1
-void handle_usr1(int signum) {
+void handle_usr1() {
     usr1_received = 1;
 }
 

@@ -8,7 +8,7 @@
 #include <netinet/in.h>
 
 // Signal handler to clean up finished child processes (reaps zombies)
-void handle_sigchld(int sig) {
+void handle_sigchld() {
     // WNOHANG makes waitpid non-blocking so the main loop never stutters
     while (waitpid(-1, NULL, WNOHANG) > 0);
 }
